@@ -1,170 +1,164 @@
-# E-COMMERCE API
- [WEBSITE-HOSTED LINK](https://e-commerce-1-34e1.onrender.com/)
-   ### USER API
-   1. User Authentication
-      - <https://e-commerce-8xmf.onrender.com/api/v1/user/register>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/user/register-seller>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/user/login>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/user/logout>
-   2. Forgot Password, Verify otp, Change Password
-      - <https://e-commerce-8xmf.onrender.com/api/v1/user/forgot-password>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/user/verify-otp>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/user/change-password>
-   3. Profile
-      - <https://e-commerce-8xmf.onrender.com/api/v1/user/profile>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/user/edit-profile>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/user/deleteUser/:id>
-   4. Wishlist
-      - <https://e-commerce-8xmf.onrender.com/api/v1/user/wishlist/add>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/user/wishlist/remove/:id>
-  ### COUPON API
-      - <https://e-commerce-8xmf.onrender.com/api/v1/coupon/create>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/coupon/apply>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/coupon>
-  ### CATEGORY API
-      - <https://e-commerce-8xmf.onrender.com/api/v1/category/create>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/category>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/category/edit/:categoryId>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/category/delete/:categoryId>
-  ### BRANDS API
-      - <https://e-commerce-8xmf.onrender.com/api/v1/brand/create>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/brand>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/brand/edit/:brandId>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/brand/delete/:brandId>
 
-      {
-  "message": "Success",
-  "brands": [
-    {
-      "_id": "67712d82fa766ac57f2d2f01",
-      "name": "vfaesh",
-      "description": "wfahcj",
-      "createdAt": "2024-12-29T11:07:46.668Z",
-      "updatedAt": "2024-12-29T11:07:46.668Z",
-      "__v": 0
-    },
-    {
-      "_id": "677130587fa48f54acd67332",
-      "name": "vsndZlxk",
-      "description": "WHKASJ",
-      "createdAt": "2024-12-29T11:19:52.748Z",
-      "updatedAt": "2024-12-29T11:19:52.748Z",
-      "__v": 0
-    }
-  ]
-}
-  ### CART API
-      - <https://e-commerce-8xmf.onrender.com/api/v1/cart/add>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/cart>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/cart/quantity>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/cart/remove/:productId>
-  ### BLOGS API
-      - <https://e-commerce-8xmf.onrender.com/api/v1/blog/add>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/blog/like/:blogId>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/blog/comment/:blogId>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/blog>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/blog/edit/:blogId>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/blog/delete/:blogId>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/blog/:blogId/comment/delete/:commentId>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/blog/:blogId/comment/edit/:commentId>
+# Swigito API Documentation
 
-      {
-  "message": "Success",
-  "blogs": [
-    {
-      "_id": "67711a8ce31abaee76b100be",
-      "title": "agejrsod",
-      "content": "jfwELCA",
-      "author": "Ratnakar",
-      "likes": [],
-      "comments": [],
-      "createdAt": "2024-12-29T09:46:52.530Z",
-      "updatedAt": "2024-12-29T10:49:14.808Z",
-      "__v": 20
-    },
-    {
-      "_id": "6771279b587da1862943287d",
-      "title": "fqdJ",
-      "content": "DJwxl",
-      "author": "Ratnakar",
-      "likes": [],
-      "comments": [],
-      "createdAt": "2024-12-29T10:42:35.443Z",
-      "updatedAt": "2024-12-29T10:42:35.443Z",
-      "__v": 0
-    },
-    {
-      "_id": "677127d36fdae9e1309ec892",
-      "title": "ajcs",
-      "content": "vsjdc",
-      "author": "Ratnakar",
-      "authId": "676d4892f20fd2a77e0cf95f",
-      "likes": [],
-      "comments": [],
-      "createdAt": "2024-12-29T10:43:31.952Z",
-      "updatedAt": "2024-12-29T10:43:31.952Z",
-      "__v": 0
-    },
-    {
-      "_id": "67712867ff81da386b9682a7",
-      "title": "ajgHXj",
-      "content": "EDBFX",
-      "author": "Ratnakar",
-      "authorId": "676d4892f20fd2a77e0cf95f",
-      "likes": [],
-      "comments": [],
-      "createdAt": "2024-12-29T10:45:59.760Z",
-      "updatedAt": "2024-12-29T10:50:56.713Z",
-      "__v": 2
-    }
-  ]
-}
-   ### TOKEN VERIFICATION API
-      - <https://e-commerce-8xmf.onrender.com/api/v1/auth/verify-token>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/auth/validate-token>
+## Base URL
+`https://swigito.onrender.com/api/v1`
 
-   ### PRODUCT API
-      - <https://e-commerce-8xmf.onrender.com/api/v1/product/add>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/product/get>
-      - <https://e-commerce-8xmf.onrender.com/api/v1/product/get/:id>
+## User Routes
+### POST `/user/register`
+- **Description:** Register a new user.
 
-     - 
-          {
-      "_id": "67670e30c555a41130542bf4",
-      "name": "TUF Gaming F15",
-      "brand": "ASUS",
-      "category": "Laptop",
-      "price": 65999,
-      "attributes": [
-        {
-          "name": "Screen Size",
-          "value": "15.6 Inches",
-          "keywords": [],
-          "_id": "67670e30c555a41130542bf5"
-        },
-        {
-          "name": "Colour",
-          "value": "Graphite Black, R7 | RTX 3050",
-          "keywords": [],
-          "_id": "67670e30c555a41130542bf6"
-        },
-        {
-          "name": "RAM",
-          "value": "16GB",
-          "keywords": [],
-          "_id": "67670e30c555a41130542bf7"
-        }
-      ],
-      "description": "AMD Ryzen 7 7435HS Mobile Processor 3.1GHz (20MB Cache, up to 4.5 GHz, 8 cores, 16 Threads) delivers fast and responsive performance for demanding tasks such as gaming, content creation, and multitasking.",
-      "inStock": true,
-      "inventory": 2,
-      "totalRating": 0,
-      "image": "https://res.cloudinary.com/dk9b873qc/image/upload/v1734807087/books/m71vvsejyk2t4rqhrw3v.webp",
-      "addedBy": "67664658944e4dd133d571ef",
-      "uid": "5LpfifKTnuiZ7h2JXIAtm",
-      "ratings": [],
-      "createdAt": "2024-12-21T18:51:28.912Z",
-      "updatedAt": "2024-12-21T18:51:28.912Z",
-      "__v": 0
-    },
+### POST `/user/register-seller`
+- **Description:** Register a new seller.
 
+### POST `/user/login`
+- **Description:** Login a user.
+
+### POST `/user/logout`
+- **Description:** Logout a user.
+
+### POST `/user/forgot-password`
+- **Description:** Initiate password reset.
+
+### POST `/user/verify-otp`
+- **Description:** Verify OTP for password reset.
+
+### POST `/user/change-password`
+- **Description:** Change user password.
+
+### GET `/user/profile`
+- **Description:** Get user profile details.
+- **Middleware:** `protectRoute`
+
+### PUT `/user/edit-profile`
+- **Description:** Edit user profile.
+- **Middleware:** `protectRoute`
+
+### DELETE `/user/deleteUser/:id`
+- **Description:** Delete a user by ID.
+
+### POST `/user/wishlist/add`
+- **Description:** Add an item to the wishlist.
+- **Middleware:** `protectRoute`
+
+### DELETE `/user/wishlist/remove/:id`
+- **Description:** Remove an item from the wishlist by ID.
+- **Middleware:** `protectRoute`
+
+## Product Routes
+### POST `/product/add`
+- **Description:** Add a new product.
+- **Middleware:** `protectRoute`, `upload.single("image")`
+
+### GET `/product/get`
+- **Description:** Get all products.
+
+### GET `/product/get/:id`
+- **Description:** Get a product by ID.
+
+## Payment Routes
+### POST `/pay/create-payment-intent`
+- **Description:** Create a payment intent.
+
+## Order Routes
+### POST `/orders/create`
+- **Description:** Create a new order.
+- **Middleware:** `protectRoute`
+
+## Coupon Routes
+### POST `/coupon/create`
+- **Description:** Create a new coupon.
+- **Middleware:** `protectRoute`, `isSeller`
+
+### POST `/coupon/apply`
+- **Description:** Apply a coupon.
+- **Middleware:** `protectRoute`
+
+### GET `/coupon/`
+- **Description:** Fetch all coupons.
+- **Middleware:** `protectRoute`
+
+## Category Routes
+### POST `/category/create`
+- **Description:** Create a new category.
+- **Middleware:** `protectRoute`
+
+### GET `/category/`
+- **Description:** Get all categories.
+
+### PUT `/category/edit/:categoryId`
+- **Description:** Edit a category by ID.
+- **Middleware:** `protectRoute`
+
+### DELETE `/category/delete/:categoryId`
+- **Description:** Delete a category by ID.
+- **Middleware:** `protectRoute`
+
+## Cart Routes
+### POST `/cart/add`
+- **Description:** Add an item to the cart.
+- **Middleware:** `protectRoute`
+
+### GET `/cart/`
+- **Description:** Get all items in the cart.
+- **Middleware:** `protectRoute`
+
+### PUT `/cart/quantity`
+- **Description:** Update the quantity of an item in the cart.
+- **Middleware:** `protectRoute`
+
+### DELETE `/cart/remove/:productId`
+- **Description:** Remove an item from the cart by product ID.
+- **Middleware:** `protectRoute`
+
+## Brand Routes
+### POST `/brand/create`
+- **Description:** Create a new brand.
+- **Middleware:** `protectRoute`
+
+### GET `/brand/`
+- **Description:** Get all brands.
+
+### PUT `/brand/edit/:brandId`
+- **Description:** Edit a brand by ID.
+- **Middleware:** `protectRoute`
+
+### DELETE `/brand/delete/:brandId`
+- **Description:** Delete a brand by ID.
+- **Middleware:** `protectRoute`
+
+## Blog Routes
+### POST `/blog/add`
+- **Description:** Add a new blog.
+- **Middleware:** `protectRoute`
+
+### POST `/blog/like/:blogId`
+- **Description:** Like a blog by ID.
+- **Middleware:** `protectRoute`
+
+### POST `/blog/comment/:blogId`
+- **Description:** Add a comment to a blog by ID.
+- **Middleware:** `protectRoute`
+
+### GET `/blog/`
+- **Description:** Get all blogs.
+
+### PUT `/blog/edit/:blogId`
+- **Description:** Edit a blog by ID.
+- **Middleware:** `protectRoute`
+
+### DELETE `/blog/delete/:blogId`
+- **Description:** Delete a blog by ID.
+- **Middleware:** `protectRoute`
+
+### DELETE `/blog/:blogId/comment/delete/:commentId`
+- **Description:** Delete a comment by ID from a blog.
+- **Middleware:** `protectRoute`
+
+### PUT `/blog/:blogId/comment/edit/:commentId`
+- **Description:** Edit a comment by ID on a blog.
+- **Middleware:** `protectRoute`
+
+## Auth Routes
+### POST `/auth/verify-token`
+- **Description:** Verify the authenticity of a token.
